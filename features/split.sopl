@@ -1,0 +1,6 @@
+start.
+
+start:
+"ab c d ef ghi " "jklmno p q rstu" vw split-echoOut.
+#space for "ab c d ef ghi " "jklmno p q rstu" vw split-echoOut.
+, for ab c,d efg,h ,ij k,,,l split-echoOut.

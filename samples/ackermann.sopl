@@ -1,0 +1,24 @@
+start.
+
+// result should be 61, time = 4sec (0.6.0)
+
+start:
+3 for 3 ackermann.
+this output.
+
+ackermann:
+a) forparams 0 ==
+   params 1 + pexpr-int.
+   this returnValue.
+b) params 0 ==
+   forparams 1 - pexpr-int.
+   this for 1 ackermann.
+   this returnValue.
+c) 1
+   params 1 - pexpr-int.
+   forparams for this ackermann.
+   forparams 1 - pexpr-int.
+   this for that ackermann.
+   this returnValue.
+end)
+

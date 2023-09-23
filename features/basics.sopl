@@ -1,0 +1,44 @@
+// needed for include test
+// contains a few basic algorithms
+basictests.
+
+basictests:
+0 1 2 3 4 0 5 6 0 7 8 0 9 10 id.
+this nzero-echoOut.
+0 1 2 3 for 0 1 2 compare-echoOut.
+0 1 2  for 0 1 2 4 compare-echoOut.
+0 1 2 4 for 0 1 2 5 compare-echoOut.
+0 1 2 3 for 0 1 2 3 compare-echoOut.
+0 1 2 5 for 0 1 2 4 compare-echoOut.
+0 1 2 5 for 0 1 2 compare-echoOut.
+
+nzero:
+params for row1 var1 0 <> skpz2 var1 out end plist-int.
+this returnValue.
+
+compare:
+ a) |forparams| |params| >
+1 returnValue.
+stop.
+b) |forparams| |params| <
+-1 returnValue.
+stop.
+end)
+forparams use params for #u #f cmp-combine->res.
+a) |this| 0 ==
+0 returnValue.
+stop.
+b) 1
+ref~res returnValue.
+stop.
+end)
+
+cmp:
+a) params~first params~second >
+1 returnValue.
+paragraph stop.
+b) params~first params~second <
+-1 returnValue.
+paragraph stop.
+end)
+

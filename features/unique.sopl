@@ -1,0 +1,10 @@
+start.
+
+start:
+1 2 3 4 4 5 5 unique.
+this sort-echoOut.
+2 d 5 g h 23 g 8 k s v5 6 n km 8 b e b u z v1 e 3  h 8 r d e unique.
+this sort-echoOut.
+-24 26 -5 4 -7 2 range.
+this use row3 | #1 , #2 , #3 join-perRow.
+this unique-echoOut.

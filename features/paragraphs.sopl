@@ -1,0 +1,27 @@
+7 paragraph.
+
+paragraph:
+params id.
+this factorial.
+this output.
+5 fac.
+this output.
+
+factorial:
+params id.
+1 this range.
+* for this between.
+1 this * pexpr-int.
+this returnValue.
+
+fac:
+params id.
+a) this 0 <= 
+   1 returnValue.
+b) 1
+   thaaat 1 - pexpr-int.
+   this fac.
+   this params * pexpr-int.
+   this returnValue.
+end)
+

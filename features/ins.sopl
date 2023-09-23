@@ -1,0 +1,7 @@
+start.
+
+start:
+1 a b c for 1 2 3 4 5 6 ins-echoOut.
+5 a for 1 2 3 4 5 6 ins-echoOut.
+6 a for 1 2 3 4 5 6 ins-echoOut.
+0 a b c for 1 2 3 4 5 6 ins-echoOut.

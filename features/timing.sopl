@@ -1,0 +1,8 @@
+// to be executed with -d -Dt
+test.
+
+test:
+now time.
+-24 26 -5 40 -7 41 range.
+this for row2 var1 var2 + out plist-int.
+now time.

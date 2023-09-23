@@ -1,0 +1,10 @@
+quine.
+
+quine:
+"quine.\n\nquine:\n" "id.\nthis~first print.\nthat output.\n2 for thaat get.\nthis print.\n\n\n"
+id.
+this~first print.
+that output.
+2 for thaat get.
+this print.
+

@@ -1,0 +1,18 @@
+codestest.
+
+codestest:
+µöäüÖÄÜß output.
+가나다 새 해 output.
+DMto€ output.
+25 DMto€-echoOut.
+€toDM output.
+100 €toDM-echoOut.
+
+DMto€:
+params 1.95583 / pexpr-float.
+this returnValue.
+
+€toDM:
+params 1.95583 * pexpr-float.
+this returnValue.
+

@@ -1,0 +1,19 @@
+a b a r c d e v c k g f n e g i o w e c v l w e c r j start.
+
+start:
+params sort.
+this frequencies.
+this output.
+
+frequencies:
+params for var1 params~first == out plist.
++ for this between.
+0 this + pexpr-int.
+params~first this returnValue.
+that for params~first mask.
+params for this minus. 
+a) |this| 0 >
+that frequencies.
+this returnValue.
+end)
+

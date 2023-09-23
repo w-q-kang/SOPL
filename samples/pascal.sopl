@@ -1,0 +1,20 @@
+10 pascal.
+
+// pascals triangle
+
+pascal:
+1 output.
+10 for 1 triangle.
+
+triangle:
+0 params 0 id.
+this for row1 var1 var2 + out plist-int.
+this id.
+this output.
+forparams 1 - pexpr-int.
+a) this 0 >
+    that for thaaat triangle.
+b) 1
+    stop.
+end)
+

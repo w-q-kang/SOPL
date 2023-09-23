@@ -1,0 +1,25 @@
+start.
+
+start:
+-25 abs pexpr-float-echoOut.
+7  9 max pexpr-float-echoOut.
+7  9 min pexpr-float-echoOut.
+4.5 round pexpr-float-echoOut.
+1.9 ceil pexpr-float-echoOut.
+1.9 floor pexpr-float-echoOut.
+5.7 exp pexpr-float-echoOut.
+37.0 log pexpr-float-echoOut.
+25 sqrt pexpr-float-echoOut.
+1000.0 log10 pexpr-float-echoOut.
+1.0 sin pexpr-float-echoOut.
+1.0 sinh pexpr-float-echoOut.
+1.0 asin pexpr-float-echoOut.
+1.0 cos pexpr-float-echoOut.
+1.0 cosh pexpr-float-echoOut.
+1.0 acos pexpr-float-echoOut.
+1.0 tan pexpr-float-echoOut.
+1.0 tanh pexpr-float-echoOut.
+1.0 atan pexpr-float-echoOut.
+243 sqrt pexpr-float-echoOut.
+1 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + pexpr-float-echoOut.
+1 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * pexpr-float-echoOut.

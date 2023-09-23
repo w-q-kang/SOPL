@@ -1,0 +1,85 @@
+dettest.
+
+dettest:
+2 for 1 2 3 4 det.
+3 for 1 2 3 4 5 6 7 8 9 det.
+4 for 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 det.
+4 for 1 0 0 0  0 1 0 0  0 0 1 0  0 0 0 1 det.
+
+// for <dim> do <matrix> det
+det:
+a) forparams 1 ==
+   params~first returnValue.
+b) forparams 2 ==
+   params det2.
+   this returnValue.
+c) 1
+   forparams use 1 for params detn.
+   this returnValue.
+end)
+this output.
+
+//<matrix> det2
+det2:
+1 for params get.
+4 for params get.
+params~first this * pexpr-int.
+2 for params get.
+3 for params get.
+that this * pexpr-int.
+thaaat this - pexpr-int.
+this returnValue.
+
+
+// use <dim> for <nr> do <matrix> detn
+detn:
+a) useparams 2 ==
+   params det2.
+   this returnValue.
+b) forparams useparams ==
+   useparams use forparams for params subdet.
+   this returnValue.
+c) forparams useparams <
+   useparams use forparams for params subdet.
+   forparams 1 + pexpr-int.
+   useparams use this for params detn.
+   this thaat + pexpr-int.
+   this returnValue.   
+end)
+
+
+
+// use <dim> for <nr> do <matrix>
+subdet:
+useparams for forparams submask.
+this for params mask.
+useparams 1 - pexpr-int.
+this use 1 for that detn.
+forparams for params get.
+forparams detop.
+this that * thaat * pexpr-int.
+this returnValue.
+//subdet useparams forparams out is this output.
+
+
+// <dim> for  <nr> construct submask
+submask:
+a) forparams params ==
+   0 id.
+b) 1
+   params id.
+end)
+forparams forparams 1 - * pexpr-int.
+1 this range.
+this for var1 forparams %  thaat <> out plist-int.
+forparams for 0 mask.
+this that returnValue.
+
+
+detop:
+b) params 2 % 1 ==
+   1 returnValue.
+c) 1
+   -1 returnValue.
+end)
+

@@ -1,0 +1,5 @@
+start.
+
+start:
+abc d ef "gh i" expand-echoOut.
+hello my world expand-echoOut.

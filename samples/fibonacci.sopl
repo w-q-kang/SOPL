@@ -1,0 +1,23 @@
+start.
+
+start:
+1 fibonacci-echoOut.
+2 fibonacci-echoOut.
+4 fibonacci-echoOut.
+7 fibonacci-echoOut.
+
+fibonacci:
+a) params isint not
+not an integer returnValue.
+b) params 0 <=
+0 returnValue.
+c) params 2 <=
+1 returnValue.
+d) 1
+params 2 - pexpr-int.
+params 1 - pexpr-int.
+that fibonacci.
+that fibonacci.
+this that + pexpr-int.
+this returnValue.
+end)

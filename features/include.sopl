@@ -1,0 +1,11 @@
+basics.sopl incsub/simple.sopl ../incltest.sopl incsub/down/simple2.sopl ../down/simple3.sopl include.
+test.
+
+test:
+0 1 2 3 4 5 nzero-echoOut.
+1 2 3 4 5 nzero-echoOut.
+5 square-echoOut.
+4 cube-echoOut.
+17 bytwo-echoOut.
+15 bythree-echoOut.
+

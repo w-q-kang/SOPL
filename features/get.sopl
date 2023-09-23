@@ -1,0 +1,6 @@
+start.
+
+start:
+1 7 9 for 1 2 3 4 5 6 7 8 get-echoOut.
+1 7 9 0 for 1 2 3 4 5 6 7 8 get-echoOut.
+

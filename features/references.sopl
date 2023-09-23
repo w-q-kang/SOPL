@@ -1,0 +1,39 @@
+w with u use e f g h for a b c d start.
+
+start:
+a b c d id.
+this id-echoOut.
+a b c d id.
+e id.
+that~first id-echoOut.
+a b c d id.
+e id.
+f id.
+thaat~last id-echoOut.
+a b c d id.
+e id.
+f id.
+g id.
+thaaat~head id-echoOut.
+a b c d id.
+e id.
+f id.
+g id.
+h id.
+thaaaat~tail id-echoOut.
+1 5 + pexpr-int->one.
+7 9 + pexpr-int->two.
+5 id.
+ref~one ref~two + pexpr-int-echoOut.
+a b c d id.
+|this| id-echoOut.
+|params| id-echoOut.
+params~last id-echoOut.
+forparams~first id-echoOut.
+useparams id-echoOut.
+withparams id-echoOut.
+params~tail id-echoOut.
+params~head~tail id-echoOut.
+params params id-echoOut.
+forparams withparams useparams forparams id-echoOut.
+useparams useparams useparams id-echoOut.

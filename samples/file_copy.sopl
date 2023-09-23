@@ -1,0 +1,11 @@
+copy.
+
+
+// read the input and the output file from the console
+// and copy the lines from input to output
+copy:
+file in is input.
+file out is input.
+that readLines.
+that for this writeLines.
+

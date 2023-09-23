@@ -1,0 +1,57 @@
+condi.
+
+condi:
+1 condition-echoOut.
+3 condition-echoOut.
+5 condition-echoOut.
+7 condition-echoOut.
+11 condition-echoOut.
+1 condition2.
+3 condition2.
+7 condition2.
+11 condition2.
+a) down up == 
+down = up output.
+end)
+a) down up <>
+down <> up output.
+end)
+
+condition:
+params id->a.
+a) this 5 > 
+"input > 5" id.
+a.1) ref~a 10 >
+"input > 10" id.
+a.2) 1
+"input <= 10 " id.
+b) 1
+"input <= 5" id.
+b.1) ref~a 2 <= 
+"input <= 2" id.
+b.2) 1
+"input > 2" id.
+end)
+this returnValue.
+
+condition2:
+params id->a.
+a) this 5 > 
+"input > 5" output.
+a.1) ref~a 10 >
+"input > 10" output.
+a.2) 1
+"input <= 10" output.
+end.a)
+"end branch a." output.
+b) 1
+"input <= 5" output.
+b.1) ref~a 2 <= 
+"input <= 2" output.
+b.2) 1
+"input > 2" output.
+end.b)
+"end branch b." output.
+end)
+final = this output.
+

@@ -1,0 +1,15 @@
+start.
+
+start:
+1 2 3 4 5 6 7 8 9 10 for var1 var1 * out plist-int-echoOut.
+1 1 1 3 2 2 2 5 5 6 6 7 3 3 3 3 9 for row1 var1 var2 == out plist-int-echoOut.
+this for row1 var1 1 == var2 0 == and out plist-int-echoOut.
+1 3 6 7 3 99 3 1 6 2 6 7 8 99 3 1 2 6 for row1 var1 3 > skpz2 var1 out plist-int-echoOut.
+1 3 6 7 3 99 3 1 6 2 6 7 8 99 3 1 2 6 for row1 var1 var2 var3 out out out plist-int-echoOut.
+1 2 3 4 5 6 7 8 9 10  for row1 def55 var-1 out var0 out var1 out plist-int-echoOut.
+1 20 range.
+this for row1 def0 var-10 out var-9 out var-8 out var0 out var1 out var2 out var10 out var11 out var12 out plist-int-echoOut.
+0 for row1 73 11 % out plist-int-echoOut.
+0 for row1 73 11 div out out plist-int-echoOut.
+0 for row1 15 6 27 9 max max max out plist-int-echoOut.
+0 for row1 15 6 27 9 min min min out plist-int-echoOut.

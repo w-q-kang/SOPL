@@ -1,0 +1,19 @@
+500 start.
+
+start:
+params id.
+2 this range.
+this sieve.
+this output.
+
+sieve:
+params for  var1 params~first * out plist-int.
+params for this minus.
+a) |this~tail| 0 <=
+params~first returnValue.
+b) 1
+params~first returnValue.
+thaaaat~tail sieve.
+this returnValue.
+end)
+

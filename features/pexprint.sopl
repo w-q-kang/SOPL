@@ -1,0 +1,23 @@
+start.
+
+start:
+1 3 min pexpr-int-echoOut.
+5 3 1 min min pexpr-int-echoOut.
+5 3 min 1 min pexpr-int-echoOut.
+abcde len pexpr-echoOut.
+-25 abs pexpr-int-echoOut.
+7 9 max pexpr-int-echoOut.
+7 9 min pexpr-int-echoOut.
+1 3 min pexpr-int-echoOut.
+5 4 min 1 min pexpr-int-echoOut.
+20 21 > pexpr-int-echoOut.
+21 21 > pexpr-int-echoOut.
+22 21 > pexpr-int-echoOut.
+21 21 >= pexpr-int-echoOut.
+22 21 >= pexpr-int-echoOut.
+23 21 >= pexpr-int-echoOut.
+21 21 <= pexpr-int-echoOut.
+22 21 <= pexpr-int-echoOut.
+10 5 * 2 + pexpr-int-echoOut.
+1 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + pexpr-int-echoOut.
+1 2 * 3 * 4 * 5 * 6 * 7 * 8 * 9 * pexpr-int-echoOut.

@@ -1,0 +1,23 @@
+5 condition2.
+
+condition2:
+params id->a.
+a) this 5 > 
+"input > 5" output.
+a.1) ref~a 10 >
+"input > 10" output.
+a.2) 1
+"input <= 10" output.
+end.a)
+"end branch a." output.
+b) 1
+"input <= 5" output.
+b.1) ref~a 2 <= 
+"input <= 2" output.
+b.2) 1
+"input > 2" output.
+end.b)
+"end branch b." output.
+end)
+final = this output.
+

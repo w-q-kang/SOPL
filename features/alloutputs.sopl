@@ -1,0 +1,8 @@
+start.
+
+start:
+"abc\n" "hhh\q" x y z output.
+"rst\n" "jjj\q"  x y z print.
+a b c d id-echoIn.
+1 2 + 3 + pexpr-echoOut.
+"def\n" "iii\q" x y z id-echo.

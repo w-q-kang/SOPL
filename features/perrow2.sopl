@@ -1,0 +1,15 @@
+start.
+
+start:
+// pretty useless
+1 7 range.
+this use row1 rdef0 | #1 #r1 id-perRow-echoOut.
+//factorials from 1
+1 8 range.
+this use row1 rdef1 | #1 #rend * pexpr-int-perRow-echoOut.
+// factorials from 0
+1 9 range.
+this use row1 init1 rdef1 | #1 #r1 * pexpr-int-perRow-echoOut.
+// fibonacci sequence
+1 10 range.
+this use row1 init1 init1 rdef1 | #r1 #r2 + pexpr-int-perRow-echoOut.

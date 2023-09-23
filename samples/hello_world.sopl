@@ -1,0 +1,6 @@
+hello.
+
+// this is the famous hello world program in SOPL
+hello:
+"Hello world" output.
+

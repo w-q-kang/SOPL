@@ -1,0 +1,8 @@
+start.
+
+start:
+1 10 range.
+0 0 0 1 1 1 2 2 2 3 for this mask-echoOut.
+a b c d e f g h i j k l m n id.
+this for row1 var1 a == var1 b == or out plist.
+this for that mask-echoOut.

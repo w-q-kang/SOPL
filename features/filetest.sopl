@@ -1,0 +1,18 @@
+filetest.
+
+filetest:
+filetest.txt for 1 2 3 4 5 writeLines.
+expect 1 1 1 0 1 1 1 1 1 1 0 output.
+exists for filetest.txt file-echoOut.
+delete for filetest.txt file-echoOut.
+delete for filetest.txt file-echoOut.
+exists for filetest.txt file-echoOut.
+create for filetest.txt file-echoOut.
+exists for filetest.txt file-echoOut.
+createdir for sub file-echoOut.
+existsdir for sub  file-echoOut.
+deletedir for sub  file-echoOut.
+deletedir for sub  file-echoOut.
+existsdir for sub  file-echoOut.
+listdir for / file-echoOut.
+

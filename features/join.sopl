@@ -1,0 +1,8 @@
+start.
+
+start:
+a b c d e f g h i j k l join-echoOut.
+; for a b c d e f g h i j k l join-echoOut.
+" " for a b c d e f g h i j k l join-echoOut.
+#space for a b c d e f g h i j k l join-echoOut.
+for a b c d e f g h i j k l join-echoOut.

@@ -1,0 +1,16 @@
+test.
+
+test:
+test 'program stop' - expect 1-28, no 'after make' output.
+1 make.
+after make output.
+
+make:
+========= params output.
+a) params 28 ==
+found 28 output.
+program stop.
+end)
+found params output.
+params 1 + pexpr.
+this make.

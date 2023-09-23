@@ -1,0 +1,26 @@
+// since this is a straight forward recursive algorithm
+// that doesnt involve backtracking, we do not need to keep track
+// of the current situation 
+// if wanted, the situation after every move can be reconstructed from the move sequence
+// args = height of the tower
+prog.
+
+prog:
+args use A for C hanoi.
+this output.
+
+hanoi:
+a) useparams 1 ==
+forparams -> params join.
+this returnValue.
+stop.
+end)
+useparams 1 - pexpr-int->reduced.
+A B C for forparams params minus->impos.
+ref~reduced use forparams for this hanoi.
+this returnValue.
+forparams -> params join.
+this returnValue.
+ref~reduced use ref~impos for params hanoi.
+this returnValue.
+

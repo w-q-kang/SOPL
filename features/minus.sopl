@@ -1,0 +1,10 @@
+start.
+
+start:
+1 2 3 for 4 5 6 minus-echoOut.
+1 2 3 for 3 2 minus-echoOut.
+1 2 3 for 3 2 1 minus-echoOut.
+1 2 3 for minus-echoOut.
+for 1 2 3 minus-echoOut.
+for minus-echoOut.
+2 2 2 for 2 2 1 minus-echoOut.

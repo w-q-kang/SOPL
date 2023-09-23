@@ -1,0 +1,15 @@
+start.
+
+start:
+1 9 range.
+this use row3 | # # + # + pexpr-int-perRow-echoOut.
+1 11 range.
+this use row3 | # # + # + pexpr-int-perRow-echoOut.
+1 9 range.
+this use row3 | # # + # + #2 + pexpr-int-perRow-echoOut.
+1 30 range.
+this use row10 | #all join-perRow-echoOut.
+1 12 range.
+this use row1 | 0 id-perRow-echoOut.
+-24 -22 -5 -4 2 3 range.
+this use row3 | #1 , #2 , #3 join-perRow-echoOut.

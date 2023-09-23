@@ -1,0 +1,8 @@
+start.
+
+start:
+afile.txt readLines-echoOut.
+delete for bfile.txt file.
+a b c d e f id.
+bfile.txt for this writeLines.
+bfile.txt readLines-echoOut.

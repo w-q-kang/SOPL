@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<FileVersion major="1" minor="0" />
+	<ActiveTarget name="Debug" />
+	<File name="include\Opcode.h" open="0" top="0" tabpos="10" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="20" />
+		</Cursor>
+	</File>
+	<File name="src\Sentence.cpp" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="805" topLine="84" />
+		</Cursor>
+	</File>
+	<File name="src\Paragraph.cpp" open="0" top="0" tabpos="18" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="806" topLine="34" />
+		</Cursor>
+	</File>
+	<File name="src\Preprocess.cpp" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="993" topLine="27" />
+		</Cursor>
+	</File>
+	<File name="src\Datetime.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="805" topLine="12" />
+		</Cursor>
+		<Folding>
+			<Collapse line="65" />
+			<Collapse line="72" />
+			<Collapse line="117" />
+			<Collapse line="122" />
+			<Collapse line="134" />
+		</Folding>
+	</File>
+	<File name="src\Basics.cpp" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10185" topLine="123" />
+		</Cursor>
+		<Folding>
+			<Collapse line="44" />
+			<Collapse line="64" />
+			<Collapse line="86" />
+			<Collapse line="119" />
+			<Collapse line="332" />
+			<Collapse line="343" />
+			<Collapse line="373" />
+			<Collapse line="387" />
+			<Collapse line="413" />
+			<Collapse line="420" />
+		</Folding>
+	</File>
+	<File name="include\Item.h" open="0" top="0" tabpos="14" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2001" topLine="40" />
+		</Cursor>
+	</File>
+	<File name="src\Log.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="859" topLine="5" />
+		</Cursor>
+	</File>
+	<File name="include\Sentence.h" open="0" top="0" tabpos="33" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Basics.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1170" topLine="22" />
+		</Cursor>
+	</File>
+	<File name="include\Test.h" open="0" top="0" tabpos="34" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Third.cpp" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2782" topLine="358" />
+		</Cursor>
+	</File>
+	<File name="src\globals.cpp" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1427" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="include\globals.h" open="0" top="0" tabpos="20" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Log.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Second.cpp" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3552" topLine="171" />
+		</Cursor>
+	</File>
+	<File name="include\Third.h" open="0" top="0" tabpos="19" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Second.h" open="0" top="0" tabpos="32" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Enums.h" open="0" top="0" tabpos="8" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="11" />
+		</Cursor>
+	</File>
+	<File name="include\Interpreter.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1057" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="src\Lexer.cpp" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="802" topLine="111" />
+		</Cursor>
+	</File>
+	<File name="src\Interpreter.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="51941" topLine="86" />
+		</Cursor>
+		<Folding>
+			<Collapse line="36" />
+			<Collapse line="59" />
+			<Collapse line="65" />
+			<Collapse line="87" />
+			<Collapse line="99" />
+			<Collapse line="107" />
+			<Collapse line="191" />
+			<Collapse line="230" />
+			<Collapse line="345" />
+			<Collapse line="356" />
+			<Collapse line="411" />
+			<Collapse line="495" />
+			<Collapse line="945" />
+			<Collapse line="1105" />
+			<Collapse line="1112" />
+			<Collapse line="1123" />
+			<Collapse line="1125" />
+			<Collapse line="1137" />
+			<Collapse line="1142" />
+			<Collapse line="1163" />
+			<Collapse line="1167" />
+			<Collapse line="1176" />
+			<Collapse line="1224" />
+			<Collapse line="1235" />
+			<Collapse line="1257" />
+			<Collapse line="1318" />
+			<Collapse line="1342" />
+			<Collapse line="1355" />
+			<Collapse line="1367" />
+			<Collapse line="1378" />
+			<Collapse line="1386" />
+			<Collapse line="1447" />
+		</Folding>
+	</File>
+	<File name="src\Test.cpp" open="0" top="0" tabpos="35" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Parser.h" open="0" top="0" tabpos="17" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Datetime.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="9" />
+		</Cursor>
+	</File>
+	<File name="include\Rowdefs.h" open="0" top="0" tabpos="9" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1068" topLine="16" />
+		</Cursor>
+	</File>
+	<File name="src\Opcode.cpp" open="0" top="0" tabpos="25" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="8" />
+		</Cursor>
+	</File>
+	<File name="include\Preprocess.h" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="957" topLine="24" />
+		</Cursor>
+	</File>
+	<File name="include\Rowitem.h" open="0" top="0" tabpos="31" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="include\Paragraph.h" open="0" top="0" tabpos="28" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Parser.cpp" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="59" />
+		</Cursor>
+	</File>
+	<File name="include\Lexer.h" open="0" top="0" tabpos="26" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="778" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\Rowitem.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1035" topLine="14" />
+		</Cursor>
+	</File>
+	<File name="src\Item.cpp" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4367" topLine="247" />
+		</Cursor>
+	</File>
+	<File name="main.cpp" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2268" topLine="63" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

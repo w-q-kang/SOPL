@@ -1,0 +1,10 @@
+fread.
+
+fread:
+afile.txt readLines-echoOut.
+|this| output.
+keepEmpty for afile.txt readLines-echoOut.
+|this| output.
+keepEol keepEof for afile.txt readLines-echoOut.
+|this| output.
+

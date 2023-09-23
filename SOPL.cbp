@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SOPL" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/SOPL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-x -w -ext -dy E:\Projekte\SOPL\sopl\perrow2.sopl" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/SOPL" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-Wl,--stack,700000000" />
+			<Add option="-Wl,--heap,500000000" />
+		</Linker>
+		<Unit filename="include/Basics.h" />
+		<Unit filename="include/Datetime.h" />
+		<Unit filename="include/Enums.h" />
+		<Unit filename="include/Interpreter.h" />
+		<Unit filename="include/Item.h" />
+		<Unit filename="include/Lexer.h" />
+		<Unit filename="include/Log.h" />
+		<Unit filename="include/Opcode.h" />
+		<Unit filename="include/Paragraph.h" />
+		<Unit filename="include/Parser.h" />
+		<Unit filename="include/Preprocess.h" />
+		<Unit filename="include/Rowdefs.h" />
+		<Unit filename="include/Rowitem.h" />
+		<Unit filename="include/Second.h" />
+		<Unit filename="include/Sentence.h" />
+		<Unit filename="include/Third.h" />
+		<Unit filename="include/globals.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Basics.cpp" />
+		<Unit filename="src/Datetime.cpp" />
+		<Unit filename="src/Interpreter.cpp" />
+		<Unit filename="src/Item.cpp" />
+		<Unit filename="src/Lexer.cpp" />
+		<Unit filename="src/Log.cpp" />
+		<Unit filename="src/Opcode.cpp" />
+		<Unit filename="src/Paragraph.cpp" />
+		<Unit filename="src/Parser.cpp" />
+		<Unit filename="src/Preprocess.cpp" />
+		<Unit filename="src/Rowitem.cpp" />
+		<Unit filename="src/Second.cpp" />
+		<Unit filename="src/Sentence.cpp" />
+		<Unit filename="src/Third.cpp" />
+		<Unit filename="src/globals.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

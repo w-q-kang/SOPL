@@ -1,0 +1,9 @@
+7 factorial.
+
+factorial:
+params id.
+1 this range.
+* for this between.
+1 this * pexpr-int.
+this output.
+

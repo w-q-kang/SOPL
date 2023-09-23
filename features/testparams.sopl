@@ -1,0 +1,14 @@
+w with u use e f g h for a b c d test.
+
+test:
+|params| id-echoOut.
+params~last id-echoOut.
+forparams~first id-echoOut.
+useparams id-echoOut.
+withparams id-echoOut.
+params~tail id-echoOut.
+params~head~tail id-echoOut.
+params params id-echoOut.
+forparams withparams useparams forparams id-echoOut.
+useparams useparams useparams id-echoOut.
+

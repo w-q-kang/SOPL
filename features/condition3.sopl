@@ -1,0 +1,37 @@
+condition3.
+
+condition3:
+2 id->a.
+10 id->b.
+2.5 id->c.
+2.4 id->d.
+a) a b > ref~b ref~a > or 
+[std] ref~b > ref~a output.
+b) 1
+[std] ref~b <= ref~a output.
+end)
+a) int ref~b ref~a > 
+[int] ref~b > ref~a output.
+b) 1
+[int] ref~b <= ref~a output.
+end)
+a) float ref~b ref~a > 
+[float] ref~b > ref~a output.
+b) 1
+[float] ref~b <= ref~a output.
+end)
+a) ref~c ref~d > 
+[std] ref~c > ref~d output.
+b) 1
+[std] ref~c <= ref~d output.
+end)
+a) int ref~c ref~d > 
+[int] ref~c > ref~d output.
+b) 1
+[int] ref~c <= ref~d output.
+end)
+a) float ref~c ref~d > 
+[float] ref~c > ref~d output.
+b) 1
+[float] ref~c <= ref~d output.
+end)

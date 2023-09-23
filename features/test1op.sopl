@@ -1,0 +1,24 @@
+test1op.
+
+test1op:
+1 2 3 4 5 6 7 8 9 10 id->list.
++ for this between.
+0 this + pexpr-int-echoOut.
+that + pexpr-int-echoOut.
+* for ref~list between.
+1 this * pexpr-int-echoOut.
+that * pexpr-int-echoOut.
+min for ref~list between.
+10 this min pexpr-int-echoOut.
+that min pexpr-int-echoOut.
+max for ref~list between.
+0 this max pexpr-int-echoOut.
+that max pexpr-int-echoOut.
+and for ref~list between.
+1 this and pexpr-int-echoOut.
+that and pexpr-int-echoOut.
+or for ref~list between.
+0 this or pexpr-int-echoOut.
+that or pexpr-int-echoOut.
+
+

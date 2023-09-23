@@ -1,0 +1,30 @@
+test.
+
+test:
+test 'paragraph stop' - expect 1-28, and 'after make', no 'at end' output.
+1 100 range.
+this use row1 | #1 make-perRow.
+after make output.
+
+make:
+========= params output.
+a) params 1 ==
+found 1 output.
+1 returnValue.
+stop.
+b) 1
+didnt find 1 output.
+end)
+after test output.
+a) params 28 ==
+found 28 output.
+paragraph stop.
+end)
+a) params 99 <
+found 2-98 output.
+2-98 returnValue.
+stop.
+b) 1
+didnt find 1-98 output.
+end)
+at end output.

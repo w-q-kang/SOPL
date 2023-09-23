@@ -1,0 +1,8 @@
+filetest2.
+
+filetest2:
+expect 1 1 1 1 output.
+create for filetest.txt file-echoOut.
+exists for filetest.txt file-echoOut.
+createdir for sub file-echoOut.
+existsdir for sub  file-echoOut.

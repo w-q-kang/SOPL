@@ -1,0 +1,40 @@
+timetest.
+
+timetest:
+expect now-nztime output.
+now time-echoOut.
+expect today-nzdate output.
+today time-echoOut.
+expect now-nzminutes output.
+zm:s now time-echoOut.
+expect today-zdate output.
+zD.M.C today time-echoOut.
+expect now-nzminutes output.
+now time-echoOut.
+expect today-zdate output.
+today time-echoOut.
+expect now-ztime output.
+zh:m:s now time-echoOut.
+expect 01:44:25 output.
+1:0:0 0:44:25 + time-echoOut.
+expect 00:15:35 output.
+1:0:0 0:44:25 - time-echoOut.
+expect 02:59:58 output.
+1:59:59 0:59:59 + time-echoOut.
+expect -01:15:25 output.
+1:0:0 2:15:25 - time-echoOut.
+expect now-ztime output.
+zh:m:s now time-echoOut.
+expect now + 1h output.
+now 1:0:0 + time-echoOut.
+expect current weekday output.
+zw today time-echoOut.
+expect current week output.
+zW today time-echoOut.
+expect current day + 10 output.
+zD.M.C today 10 + time-echoOut.
+expect current day - 365 output.
+zD.M.C today 365 - time-echoOut.
+expect current day + 2* 365 output.
+zD.M.C today 730 + time-echoOut.
+
