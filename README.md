@@ -1,6 +1,6 @@
-#SOPL
+# SOPL
 
-##Introduction
+## Introduction
 SOPL is an esoteric/weird programming language. It is of course not intended for mainstream programming. Trying to solve a program using it should rather be viewed as a kind of brain-teaser. SOPL isn't as hard as BF or even Malbolge, so it should in principle be possible to solve your problem. However, the solution will often not be as straightforward or obvious as with a mainstream language...
 
 The main reason I invented SOPL is beauty. Since beauty lies in the eyes of the beholder, you may find ugly what I think is beautiful. The aim is to have a language that produces code more close to natural languages as is normally the case. I admit that SOPL achieves this aim only partially. Therefore I have plans for a successor language that comes more close to the aim but will also be much less intelligible for the ordinary reader.
@@ -9,12 +9,12 @@ To get acquainted with the programming style needed for SOPL programs you should
 
 The repository contains an interpreter written in C++ as well as sample programs.
 
-##Build
+## Build
 You should compile the source code with C++17 or later. To avoid crashes for programs making heavy use of recursion increase heap and stack by setting the appropriate linker options. I use the following settings:
 -Wl,--stack,700000000
 -Wl,--heap,500000000
 Note that I still prefer to include debug code and suggest you do the same when compiling the code. 
-###Windows
+### Windows
 You should have GCC (including the compiler g++) installed first. Then run the build script:
 
 ```batch
@@ -84,7 +84,7 @@ After successfully compiling you should be all set. Try executing a sample progr
 bin/Debug/sopl -x -ext samples/hello_world.sopl
 ```
 
-##Structure
+## Structure
 The basic structure of an SOPL program is as follows:
 - It starts with a header, basically consisting of a paragraph call and ending with an empty line.
 - Then a series of paragraphs follows, each paragraph is introduced with its name followed by a colon on a separate line and a subsequent series of sentences. Paragraphs are terminated by an empty line.
@@ -94,13 +94,13 @@ The basic structure of an SOPL program is as follows:
 
 For a thorough description of the language please see the PDF documentation in the docs subdirectory.
 
-##Design
+## Design
 The only design principle I am trying to follow is KISS: Keep it simple and stupid. Sure the code isn't always as stupid as it could be but I keep trying...
 
-##Samples
+## Samples
 The 'samples' directory lists the solutions to a few 'standard' tasks. Might be extended in the future... 
 
 There is also a 'features' directory which contains small programs that mostly do not have a meaning in themselves but simply demonstrate the features of the language. You should make yourself familar with the examples listed there and try to understand the results by running them to get a better understanding of the language.
 
-##Issues
+## Issues
 If you find that something is wrong or should be changed for whatever reason please submit an issue. I will usually try to react in a week or so but if I don't that may probably be due to private reasons.
