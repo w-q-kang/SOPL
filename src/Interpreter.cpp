@@ -1634,11 +1634,14 @@ vector<string> Interpreter::bulkExecLong(Modes mode, vector<string> &ops, vector
                     }
 
                     il = i + code.left - 1;
-                    if (hasdefault) {
-                      if ((il < 0) || (il >= len)) {
+
+                    if ((il < 0) || (il >= len)) {
+                      if (hasdefault) {
                         ihelp.push_back(def);
                       } else {
-                        ihelp.push_back(stoll(liste[il]));
+                        ihelp.push_back(0);
+                        logg.msg(ERROR, "non-existing index " + to_string(il) + " found and no default set.");
+                        return vempty;
                       }
                     } else {
                         ihelp.push_back(stoll(liste[il]));
@@ -1967,15 +1970,20 @@ vector<string> Interpreter::bulkExecFloat(Modes mode, vector<string> &ops, vecto
                     }
 
                     ihelp = i + code.left - 1;
-                    if (hasdefault) {
-                      if ((ihelp < 0) || (ihelp >= len)) {
+
+                    if ((ihelp < 0) || (ihelp >= len)) {
+                      if (hasdefault) {
                         dhelp.push_back(def);
                       } else {
-                        dhelp.push_back(stod(liste[ihelp]));
+                        dhelp.push_back(0.0);
+                        logg.msg(ERROR, "non-existing index " + to_string(ihelp) + " found and no default set.");
+                        return vempty;
                       }
                     } else {
-                        dhelp.push_back(stoll(liste[ihelp]));
+                        dhelp.push_back(stod(liste[ihelp]));
                     }
+
+
                 } else if (code.op == IDX) {
                    if (mode == SINGLE) {
                         logg.msg(ERROR, "Opcode idx not allowed in pexpr.");
@@ -2268,15 +2276,19 @@ vector<string> Interpreter::bulkExecString(Modes mode, vector<string> &ops, vect
                         return vempty;
                     }
                     il = i + code.left - 1;
-                    if (hasdefault) {
-                      if ((il < 0) || (il >= len)) {
+
+                    if ((il < 0) || (il >= len)) {
+                      if (hasdefault) {
                         shelp.push_back(def);
                       } else {
-                        shelp.push_back(liste[il]);
+                        shelp.push_back("");
+                        logg.msg(ERROR, "non-existing index " + to_string(il) + " found and no default set.");
+                        return vempty;
                       }
                     } else {
                         shelp.push_back(liste[il]);
                     }
+
                 } else if (code.op == UPPER) {
                    sr = shelp.back();
                    shelp.pop_back();
@@ -2688,7 +2700,14 @@ void Interpreter::sortRowsLong(int index, int rows, bool isDesc, vector<string> 
             w.push_back(v[i+j]);
             if (j==index-1) {idx = stoll(v[i+j]);}
         }
-        m[idx]= w;
+        auto x = m.find(idx);
+        if (x==m.end()) {
+            m[idx]= w;
+        } else {
+            vector<string> z = x->second;
+            addToVector(z, w);
+            m[idx]= z;
+        }
      }
 
      if (isDesc) {
@@ -2716,8 +2735,16 @@ void Interpreter::sortRowsString(int index, int rows, bool isDesc, vector<string
                 idx = v[i+j];
             }
         }
-        m[idx]= w;
-     }
+        auto x = m.find(idx);
+        if (x==m.end()) {
+            m[idx]= w;
+        } else {
+            vector<string> z = x->second;
+            addToVector(z, w);
+            m[idx]= z;
+        }
+       }
+
      if (isDesc) {
          for (map<string,vector<string>>::reverse_iterator it=m.rbegin(); it!=m.rend(); ++it) {
             addToVector(p,it->second);

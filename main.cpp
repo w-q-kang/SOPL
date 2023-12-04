@@ -61,7 +61,7 @@ Level Log::level = DEBUG;
 
 string debugtypes = ""; // always set debug types per -D
 bool Log::useconsole = true;
-string current_version = "1.0.0";
+string current_version = "1.0.1";
 
 int main(int argc, char *argv[])
 {

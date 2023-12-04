@@ -65,13 +65,10 @@ int Third::thirdParse(vector<Sentence> v) {
                 paragraphs.push_back(*p);
                 absdists.clear();
                 relativedists.clear();
-                p = new Paragraph();
-                snames.clear();
-                if (debug_P) {log.debug("snames clear");}
             }
-            //p = new Paragraph();
-            //snames.clear();
-            //if (debug_P) {log.debug("snames clear");}
+            p = new Paragraph();
+            snames.clear();
+            if (debug_P) {log.debug("snames clear");}
         }
         try {
             help = s.getRefname();
@@ -272,6 +269,7 @@ int Third::calculateJumpEnd(int index, vector<Sentence> &v) {
     int currLevel = s.getCondLevel() - 1;
     int currSeq = s.getSeq();
     if (currLevel == 0) {return jump;}
+    bool isNext = true;
 
     try {
         for (int i=index+1; i<(int) v.size(); ++i) {
@@ -292,7 +290,7 @@ int Third::calculateJumpEnd(int index, vector<Sentence> &v) {
                     log.msg(ERROR, "malformed conditional sequence found for sentence " + to_string(index) + ". Maybe end) label missing.");
                 }
                 break;
-            } else if ((succLT == 2) && (currLevel == succLevel) && !missed) {
+            } else if ((succLT == 2) && (currLevel == succLevel) && !missed && isNext) {
                     jump = i - index;
                     if (debug_j) {log.debug("calculateJump break LT3/2 for sentence " + to_string(index));};
                     found = true;
@@ -306,6 +304,8 @@ int Third::calculateJumpEnd(int index, vector<Sentence> &v) {
                 currLevel = succLevel;
                 missed = true;
             }
+
+            isNext = false;
         }
     } catch(exception &e) {
          string s = e.what();
